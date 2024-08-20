@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "YoungSerif";
+  src: url("../assets/fonts/young-serif/YoungSerif-Regular.ttf")
+    format("truetype");
+}
+
+/* GLOBAL CSS */
+
+body {
+  font-family: "Outfit";
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.title {
+  font-family: "YoungSerif";
+  font-weight: 400;
+}
+
+/* HEADER SECTION */
+.mainTitle {
+  font-size: 2rem;
+}
